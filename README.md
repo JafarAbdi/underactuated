@@ -12,3 +12,9 @@ To cite this software (or the corresponding textbook), please use:
 Russ Tedrake. _Underactuated Robotics: Algorithms for Walking, Running,
 Swimming, Flying, and Manipulation (Course Notes for MIT 6.832)._
 Downloaded on [date] from <http://underactuated.mit.edu/>.
+
+## Cleaning up the notebooks
+
+```fish
+fd _solution.ipynb --exec nbdev_clean --clear_all --fname {}
+```
